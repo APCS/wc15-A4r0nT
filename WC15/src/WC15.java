@@ -30,8 +30,10 @@ public class WC15
    */
   public static String centralThree(String letters)
   {
-    //TODO: Finish
-    return "no";
+    int first = letters.length() / 2 - 1;
+    int end = letters.length() / 2 + 2;
+    String middle = letters.substring(first, end);
+    return middle;
   }
 
   /**
