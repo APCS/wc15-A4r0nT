@@ -53,7 +53,7 @@ public class WC15
    */
   public static String chopFront(String str)
   {
-    //TODO: Finish
+    
     return "no";
   }
 
